@@ -15,6 +15,11 @@ html,body{
     src: url(Fonts/Freudian\ One\ Demo.ttf);
 }
 
+@font-face {
+    font-family: Rashford;
+    src: url(Fonts/ROSEFORD\ DEMO.ttf);
+}
+
 .main{
     height: 100%;
     width: 100%;
@@ -113,12 +118,14 @@ html,body{
     align-items: center;
     color: #fff;
     justify-content: center;
+    cursor: pointer;
 }
 
 .hamburger{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .hamburger p{
@@ -126,6 +133,7 @@ html,body{
     font-family: fre;
     color: #fff;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .hamburger i{
@@ -134,7 +142,7 @@ html,body{
     font-weight: 100;
 }
 
-.english p{
+/* .english p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,17 +154,17 @@ html,body{
     font-family: fre;
     font-weight: 400;
     color: #fff;
-}
+} */
 
 .lannding-page{
     height: 150vh;
-    background-color: #de4953;
+    /* background-color: #de4953; */
+    background-image: radial-gradient(#f1f1f1, #F15A5E, #EA303D);
     width: 100%;
 }
 
 .img img{
     position: relative;
-    /* height: 500px; */
     top: 50%;
     left: 49%;
     transform: translate(-50%,75%);
@@ -224,7 +232,7 @@ html,body{
 }
 
 .leftarrow p{
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
     font-family: fre;
     font-weight: 400;
@@ -250,7 +258,7 @@ html,body{
 }
 
 .rightarrow p{
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
     font-family: fre;
     font-weight: 400;
@@ -313,6 +321,151 @@ html,body{
 .page2{
     height: 100%;
     width: 100vw;
-    background-color: yellow;
+    background-image: linear-gradient(#F25B60,#D73C48,#D43643);
+
+}
+
+.strawberry{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 15vh;
+}
+
+.leftside{
+    height: 100%;
+    width:30%;
+    text-align: end;
+}
+
+.discover{
+    padding-top: 2vh;
+}
+
+.discover p{
+    font-size: 23px;
+    font-family: fre;
+    color: #fff;
+}
+
+.flavour{
+    padding-top: 5vh;
+}
+
+.flavour h1{
+    font-size: 40px;
+    font-family: Rashford;
+    color: #0f0f0f;
+}
+
+.flavour h3{
+    font-size: 23px;
+    font-family: fre;
+    color: #fff;
+    font-weight: 200;
+    padding-top: 5vh;
+}
+
+.ingrediants{
+    margin-top: 25vh;
+}
+
+.ingrediants p{
+    font-size: 20px;
+    font-family: fre;
+    font-weight: 400;
+    color: #fff;
+}
+
+.ingrediants h3{
+    font-size: 16px;
+    font-family: Rashford;
+    color: #010101;
+    font-weight: 400;
+}
+
+.middle{
+    width: 30%;
+    height: 100%;
+    padding-left: 2vw;
+    margin-left: 7vw;
+}
+
+.heading-p{
+    padding-top: 2vh;
+    width: 90%;
+}
+
+.heading-p p{
+    font-size: 25px;
+    font-family: fre;
+    font-weight: 400;
+    color: #fff;
+}
+
+.heading-p h4{
+    margin-top: 3vh;
+    font-size: 15px;
+    font-family: Rashford;
+    font-weight: 400;
+    color: #010101;
+}
+
+.extra-info{
+    margin-top: 20vh;
+    height: 200px;
+    width: 200px;
+    /* background-color: black; */
+}
+
+.first-info{
+    height: 50%;
+    width: 100%;
+    border-top: 1.5px dotted #f8f7e5;
+    border-bottom: 1.5px dotted #f8f7e5;
+    display: flex;
+    align-items: center;
+}
+
+.calorie{
+    height: 80%;
+    width: 50%;
+    border-right: 1px solid #f1f1f1;
+}
+
+.calorie p{
+    font-size: 17px;
+    font-family: fre;
+    color: #fff;
+    font-weight: 400;
+}
+
+.calorie h4{
+    font-size: 20px;
+    font-family: fre;
+    font-weight: 400;
+    color: #0f0f0f;
+    margin-top: 15px;
+}
+
+.price{
+    height: 80%;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.price p{
+    font-size: 18px;
+    font-family: fre;
+    color: #fff;
+    font-weight: 400;
+}
+
+.price h4{
+    font-size: 20px;
+    font-family: fre;
+    font-weight: 400;
+    color: #0f0f0f;
+    margin-top: 15px;
 }
 
