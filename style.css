@@ -333,60 +333,30 @@ html,body{
     display: flex;
     padding-top: 7vh;
     background-image: linear-gradient(#F25B60,#D73C48,#D43643);
-    position: absolute;
-    z-index: 99;
-
 }
 
-.grape{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    padding-top: 7vh;
-    background-image: linear-gradient(#8E73B5,#55328F,#45237D);
-    position: absolute;
-    z-index: 98;
+.first-line{
+    overflow: hidden;
+    height: 55px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
 }
 
-.orange{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    padding-top: 7vh;
-    background-image: linear-gradient(#E47E5B,#DB6637,#E16B37);
-    position: absolute;
-    z-index: 97;
+.heading-p-first-line{
+    height: 55px;
+    overflow: hidden;
 }
 
-.pineapple{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    padding-top: 7vh;
-    background-image: linear-gradient(#F7DCBC,#DEA967,#D2A160);
-    position: absolute;
-    z-index: 96;
+.second-line{
+    overflow: hidden;
+    height: 55px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
 }
 
 .leftside{
-    height: 100%;
-    width:30%;
-    text-align: end;
-}
-
-.ornage-leftside{
-    height: 100%;
-    width:30%;
-    text-align: end;
-}
-
-.grape-leftside{
-    height: 100%;
-    width:30%;
-    text-align: end;
-}
-
-.pineapple-leftside{
     height: 100%;
     width:30%;
     text-align: end;
@@ -396,37 +366,7 @@ html,body{
     padding-top: 2vh;
 }
 
-.grape-discover{
-    padding-top: 2vh;
-}
-
-.orange-dicover{
-    padding-top: 2vh;
-}
-
-.pineapple-discover{
-    padding-top: 2vh;
-}
-
 .discover p{
-    font-size: 23px;
-    font-family: fre;
-    color: #fff;
-}
-
-.grape-discover p{
-    font-size: 23px;
-    font-family: fre;
-    color: #fff;
-}
-
-.orange-dicover p{
-    font-size: 23px;
-    font-family: fre;
-    color: #fff;
-}
-
-.pineapple-discover p{
     font-size: 23px;
     font-family: fre;
     color: #fff;
@@ -436,67 +376,13 @@ html,body{
     padding-top: 5vh;
 }
 
-.grape-flavour{
-    padding-top: 5vh;
-}
-
-.orange-flavour{
-    padding-top: 5vh;
-}
-
-.pineapple-flavour{
-    padding-top: 5vh;
-}
-
 .flavour h1{
     font-size: 40px;
     font-family: Rashford;
     color: #0f0f0f;
 }
 
-.grape-flavour h1{
-    font-size: 40px;
-    font-family: Rashford;
-    color: #0f0f0f;
-}
-
-.orange-flavour h1{
-    font-size: 40px;
-    font-family: Rashford;
-    color: #0f0f0f;
-}
-
-.pineapple-flavour h1{
-    font-size: 40px;
-    font-family: Rashford;
-    color: #0f0f0f;
-}
-
-.flavour h3{
-    font-size: 23px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 200;
-    padding-top: 5vh;
-}
-
-.grape-flavour h3{
-    font-size: 23px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 200;
-    padding-top: 5vh;
-}
-
-.orange-flavour h3{
-    font-size: 23px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 200;
-    padding-top: 5vh;
-}
-
-.pineapple-flavour h3{
+.neat-weight h3{
     font-size: 23px;
     font-family: fre;
     color: #fff;
@@ -508,40 +394,7 @@ html,body{
     margin-top: 25vh;
 }
 
-.grape-ingrediants{
-    margin-top: 25vh;
-}
-
-.orange-ingrediants{
-    margin-top: 25vh;
-}
-
-.pineapple-ingrediants{
-    margin-top: 25vh;
-}
-
 .ingrediants p{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #fff;
-}
-
-.grape-ingrediants p{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #fff;
-}
-
-.orange-ingrediants p{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #fff;
-}
-
-.pineapple-ingrediants p{
     font-size: 20px;
     font-family: fre;
     font-weight: 400;
@@ -555,49 +408,7 @@ html,body{
     font-weight: 400;
 }
 
-.grape-ingrediants h3{
-    font-size: 16px;
-    font-family: Rashford;
-    color: #010101;
-    font-weight: 400;
-}
-
-.orange-ingrediants h3{
-    font-size: 16px;
-    font-family: Rashford;
-    color: #010101;
-    font-weight: 400;
-}
-
-.pineapple-ingrediants h3{
-    font-size: 16px;
-    font-family: Rashford;
-    color: #010101;
-    font-weight: 400;
-}
-
 .middle{
-    width: 30%;
-    height: 100%;
-    padding-left: 2vw;
-    margin-left: 7vw;
-}
-
-.grape-middle{
-    width: 30%;
-    height: 100%;
-    padding-left: 2vw;
-    margin-left: 7vw;
-}
-
-.orange-middle{
-    width: 30%;
-    height: 100%;
-    padding-left: 2vw;
-    margin-left: 7vw;
-}
-
-.pineapple-middle{
     width: 30%;
     height: 100%;
     padding-left: 2vw;
@@ -609,43 +420,7 @@ html,body{
     width: 90%;
 }
 
-.grape-heading-p{
-    padding-top: 2vh;
-    width: 90%;
-}
-
-.orange-heading-p{
-    padding-top: 2vh;
-    width: 90%;
-}
-
-.pineapple-heading-p{
-    padding-top: 2vh;
-    width: 90%;
-}
-
 .heading-p p{
-    font-size: 25px;
-    font-family: fre;
-    font-weight: 400;
-    color: #fff;
-}
-
-.grape-heading-p p{
-    font-size: 25px;
-    font-family: fre;
-    font-weight: 400;
-    color: #fff;
-}
-
-.orange-heading-p p{
-    font-size: 25px;
-    font-family: fre;
-    font-weight: 400;
-    color: #fff;
-}
-
-.pineapple-heading-p p{
     font-size: 25px;
     font-family: fre;
     font-weight: 400;
@@ -660,66 +435,11 @@ html,body{
     color: #010101;
 }
 
-.grape-heading-p h4{
-    margin-top: 3vh;
-    font-size: 15px;
-    font-family: Rashford;
-    font-weight: 400;
-    color: #010101;
-}
-
-.orange-heading-p h4{
-    margin-top: 3vh;
-    font-size: 15px;
-    font-family: Rashford;
-    font-weight: 400;
-    color: #010101;
-}
-
-.pineapple-heading-p h4{
-    margin-top: 3vh;
-    font-size: 15px;
-    font-family: Rashford;
-    font-weight: 400;
-    color: #010101;
-}
-
 .heading-p span{
     color: #7ECF86;
 }
 
-.grape-heading-p span{
-    color: #7ECF86;
-}
-
-.ornage-heading-p span{
-    color: #7ECF86;
-}
-
-.pineapple-heading-p span{
-    color: #7ECF86;
-}
-
 .extra-info{
-    margin-top: 20vh;
-    height: 200px;
-    width: 200px;
-    /* background-color: black; */
-}
-
-.garpe-extra-info{
-    margin-top: 20vh;
-    height: 200px;
-    width: 200px;
-}
-
-.orange-extra-info{
-    margin-top: 20vh;
-    height: 200px;
-    width: 200px;
-}
-
-.pineapple-extra-info{
     margin-top: 20vh;
     height: 200px;
     width: 200px;
@@ -735,79 +455,13 @@ html,body{
     align-items: center;
 }
 
-.grape-first-info{
-    height: 50%;
-    width: 100%;
-    border-top: 1.5px dotted #f8f7e5;
-    border-bottom: 1.5px dotted #f8f7e5;
-    display: flex;
-    align-items: center;
-}
-
-.orange-first-info{
-    height: 50%;
-    width: 100%;
-    border-top: 1.5px dotted #f8f7e5;
-    border-bottom: 1.5px dotted #f8f7e5;
-    display: flex;
-    align-items: center;
-}
-
-.pineapple-first-info{
-    height: 50%;
-    width: 100%;
-    border-top: 1.5px dotted #f8f7e5;
-    border-bottom: 1.5px dotted #f8f7e5;
-    display: flex;
-    align-items: center;
-}
-
 .calorie{
     height: 80%;
     width: 50%;
     border-right: 1px solid #f1f1f1;
 }
 
-.grape-calorie{
-    height: 80%;
-    width: 50%;
-    border-right: 1px solid #f1f1f1;
-}
-
-.orange-calorie{
-    height: 80%;
-    width: 50%;
-    border-right: 1px solid #f1f1f1;
-}
-
-.pineapple-calorie{
-    height: 80%;
-    width: 50%;
-    border-right: 1px solid #f1f1f1;
-}
-
 .calorie p{
-    font-size: 17px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 400;
-}
-
-.grape-calorie p{
-    font-size: 17px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 400;
-}
-
-.orange-calorie p{
-    font-size: 17px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 400;
-}
-
-.pineapple-calorie p{
     font-size: 17px;
     font-family: fre;
     color: #fff;
@@ -822,49 +476,7 @@ html,body{
     margin-top: 15px;
 }
 
-.grape-calorie h4{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #0f0f0f;
-    margin-top: 15px;
-}
-
-.orange-calorie h4{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #0f0f0f;
-    margin-top: 15px;
-}
-
-.pineapple-calorie h4{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #0f0f0f;
-    margin-top: 15px;
-}
-
 .price{
-    height: 80%;
-    width: 50%;
-    padding-left: 20px;
-}
-
-.grape-price{
-    height: 80%;
-    width: 50%;
-    padding-left: 20px;
-}
-
-.orange-price{
-    height: 80%;
-    width: 50%;
-    padding-left: 20px;
-}
-
-.pineapple-price{
     height: 80%;
     width: 50%;
     padding-left: 20px;
@@ -877,52 +489,7 @@ html,body{
     font-weight: 400;
 }
 
-.grape-price p{
-    font-size: 18px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 400;
-}
-
-.orange-price p{
-    font-size: 18px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 400;
-}
-
-.pineapple-price p{
-    font-size: 18px;
-    font-family: fre;
-    color: #fff;
-    font-weight: 400;
-}
-
 .price h4{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #0f0f0f;
-    margin-top: 15px;
-}
-
-.grape-price h4{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #0f0f0f;
-    margin-top: 15px;
-}
-
-.orange-price h4{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    color: #0f0f0f;
-    margin-top: 15px;
-}
-
-.pineapple-price h4{
     font-size: 20px;
     font-family: fre;
     font-weight: 400;
@@ -941,74 +508,11 @@ html,body{
     border-radius: 50px;
 }
 
-.grape-dicover-btn a{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    text-decoration: none;
-    color: #0f0f0f;
-    padding: 15px 20px;
-    background-color: #7ECF86;
-    border-radius: 50px;
-}
-
-.orange-dicover-btn a{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    text-decoration: none;
-    color: #0f0f0f;
-    padding: 15px 20px;
-    background-color: #7ECF86;
-    border-radius: 50px;
-}
-
-.pineapple-dicover-btn a{
-    font-size: 20px;
-    font-family: fre;
-    font-weight: 400;
-    text-decoration: none;
-    color: #0f0f0f;
-    padding: 15px 20px;
-    background-color: #7ECF86;
-    border-radius: 50px;
-}
-
 .right{
     width: 40%;
 }
 
-.grape-right{
-    width: 40%;
-}
-
-.orange-right{
-    width: 40%;
-}
-
-.pineapple-right{
-    width: 40%;
-}
-
 .main-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.grape-main-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.orange-main-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.pineapple-main-img{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1022,36 +526,7 @@ html,body{
     justify-content: center;
     border-radius: 20px;
     border: 1.5px dotted #f8f7e5;
-}
-
-.grape-img-con{
-    height: 450px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    border: 1.5px dotted #f8f7e5;
-}
-
-.orange-img-con{
-    height: 450px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    border: 1.5px dotted #f8f7e5;
-}
-
-.pineapple-img-con{
-    height: 450px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    border: 1.5px dotted #f8f7e5;
+    overflow: hidden;
 }
 
 .img2{
@@ -1062,36 +537,7 @@ html,body{
     align-items: center;
     justify-content: center;
     border: 1.5px solid #f8f7e5;
-}
-
-.grape-img2{
-    height: 430px;
-    width: 230px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1.5px solid #f8f7e5;
-}
-
-.orange-img2{
-    height: 430px;
-    width: 230px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1.5px solid #f8f7e5;
-}
-
-.pineapple-img2{
-    height: 430px;
-    width: 230px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1.5px solid #f8f7e5;
+    overflow: hidden;
 }
 
 .img2 img{
@@ -1099,49 +545,24 @@ html,body{
     width: auto;
 }
 
-.grape-img2 img{
-    height: 400px;
-    width: auto;
-}
+/* .strawberry2{
+    position: absolute;
+    background-color: aqua;
+}*/
 
-.orange-img2 img{
+.img3{
+    position: relative;
+    top: 0%;
+    left: -40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-self: center;
+    width: 100%;
     height: 400px;
-    width: auto;
-}
-
-.pineapple-img2 img{
-    height: 400px;
-    width: auto;
 }
 
 .nest-prev{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 5vh;
-}
-
-.grape-nest-prev{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 5vh;
-}
-
-.orange-nest-prev{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 5vh;
-}
-
-.pineapple-nest-prev{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1159,33 +580,6 @@ html,body{
     border: 1.5px solid #f8f7e5;
 }
 
-.grape-next-btn a{
-    text-decoration: none;
-    color: #f8f7e5;
-    font-size: 20px;
-    padding: 7px 7px;
-    border-radius: 50%;
-    border: 1.5px solid #f8f7e5;
-}
-
-.orange-next-btn a{
-    text-decoration: none;
-    color: #f8f7e5;
-    font-size: 20px;
-    padding: 7px 7px;
-    border-radius: 50%;
-    border: 1.5px solid #f8f7e5;
-}
-
-.pineapple-next-btn a{
-    text-decoration: none;
-    color: #f8f7e5;
-    font-size: 20px;
-    padding: 7px 7px;
-    border-radius: 50%;
-    border: 1.5px solid #f8f7e5;
-}
-
 .prev-btn a{
     text-decoration: none;
     color: #f8f7e5;
@@ -1195,104 +589,26 @@ html,body{
     border: 1.5px solid #f8f7e5;
 }
 
-.grape-prev-btn a{
-    text-decoration: none;
-    color: #f8f7e5;
-    font-size: 20px;
-    padding: 7px 7px;
-    border-radius: 50%;
-    border: 1.5px solid #f8f7e5;
-}
-
-.orange-prev-btn a{
-    text-decoration: none;
-    color: #f8f7e5;
-    font-size: 20px;
-    padding: 7px 7px;
-    border-radius: 50%;
-    border: 1.5px solid #f8f7e5;
-}
-
-.pineapple-prev-btn a{
-    text-decoration: none;
-    color: #f8f7e5;
-    font-size: 20px;
-    padding: 7px 7px;
-    border-radius: 50%;
-    border: 1.5px solid #f8f7e5;
+.pages{
+    height: 18px;
+    width: 100%;
+    margin-top: -3.5vh;
+    overflow: hidden;
 }
 
 .pages p{
     font-size: 15px;
     font-family: fre;
+    overflow: hidden;
     font-weight: 400;
     color: #f8f7e5;
     display: flex;
-    margin-top: -3.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
-}
-
-.grape-pages p{
-    font-size: 15px;
-    font-family: fre;
-    font-weight: 400;
-    color: #f8f7e5;
-    display: flex;
-    margin-top: -3.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-}
-
-.orange-pages p{
-    font-size: 15px;
-    font-family: fre;
-    font-weight: 400;
-    color: #f8f7e5;
-    display: flex;
-    margin-top: -3.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-}
-
-.pineapple-pages p{
-    font-size: 15px;
-    font-family: fre;
-    font-weight: 400;
-    color: #f8f7e5;
-    display: flex;
-    margin-top: -3.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
 }
 
 .middle-info{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.grape-middle-info{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.orange-middle-info{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.pineapple-middle-info{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1304,21 +620,13 @@ html,body{
     color: #161616;
 }
 
-.grape-name h3{
-    font-size: 25px;
-    font-family: Rashford;
-    color: #161616;
+.name-first-line{
+    height: 35px;
+    overflow: hidden;
 }
 
-.orange-name h3{
-    font-size: 25px;
-    font-family: Rashford;
-    color: #161616;
-}
-
-.pineapple-name h3{
-    font-size: 25px;
-    font-family: Rashford;
-    color: #161616;
+.name-second-line{
+    height: 35px;
+    overflow: hidden;
 }
 
