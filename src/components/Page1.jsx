@@ -1,8 +1,10 @@
-export default function Page1() {
+import { PropTypes } from "prop-types";
+
+export default function Page1(props) {
   return (
     <>
       <div className="page1">
-        <div className="lannding-page">
+        <div className="lannding-page" style={props.page1}>
           <div className="heading">
             <div className="img">
               <img src="Images/cherry.png" alt="" />
@@ -37,3 +39,7 @@ export default function Page1() {
     </>
   );
 }
+
+Page1.propTypes = {
+  page1: PropTypes.object.isRequired, // Enforces page1 to be an object
+};

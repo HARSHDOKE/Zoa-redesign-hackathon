@@ -1,8 +1,10 @@
-export default function Page2() {
+import { PropTypes } from "prop-types";
+
+export default function Page2(props) {
   return (
     <>
       <div className="page2">
-        <div className="strawberry">
+        <div className="strawberry" style={props.page2}>
           <div className="leftside">
             <div className="discover">
               <p>
@@ -137,3 +139,7 @@ export default function Page2() {
     </>
   );
 }
+
+Page2.propTypes = {
+  page2: PropTypes.object.isRequired, // Enforces page1 to be an object
+};
